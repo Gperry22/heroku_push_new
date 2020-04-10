@@ -18,6 +18,9 @@ if (process.env.NODE_ENV === "production") {
   databaseToUse = "mongodb://localhost/reactBoilerplate";
 }
 
+
+
+
 app.use(routes);
 
 const MONGODB_URI = process.env.MONGODB_URI || databaseToUse;
